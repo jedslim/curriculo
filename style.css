@@ -13,7 +13,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  background-color: #646368;
+  background-color: #f7f7f7;
   color: #333;
   line-height: 1.6;
   padding: 6.5vh;
@@ -21,7 +21,6 @@ body {
 header {
   text-align: center;
   padding: 20px 0;
-  background-color: #01080f;
   color: #01080f;
   background-image: url(back3.avif);
 }
