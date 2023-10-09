@@ -1,0 +1,164 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(back7.avif);
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #01080f;
+  color: #01080f;
+  background-image: url(back3.avif);
+}
+
+.profile-picture {
+  max-width: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 10px auto;
+  display: block;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 5px 0;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+ul.list-contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.list-contact li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  font-size: 60px;
+  margin-right: 10px;
+}
+
+.list-item:hover {
+  font-size: 100px;
+  transition: 1s;
+}
+
+a {
+  color: #01080f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(64, 99, 99);
+}
+
+ul.list-exp {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.list-habilidade {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.list-education {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #01080f;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  header {
+    font-size: 40px;
+    padding: 20px 0;
+  }
+  .profile-picture {
+    max-width: 100px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  ul.list-contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  ul.list-contact li {
+    margin-bottom: 5px;
+  }
+  .fi {
+    font-size: 35px;
+  }
+  ul.list-exp {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
