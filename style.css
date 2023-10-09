@@ -13,18 +13,11 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  background-color: #f7f7f7;
+  background-color: #646368;
   color: #333;
   line-height: 1.6;
-  padding: 20px;
+  padding: 6.5vh;
 }
-
-.container {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-image: url(back7.avif);
-}
-
 header {
   text-align: center;
   padding: 20px 0;
@@ -39,6 +32,12 @@ header {
   border: 5px solid #fff;
   margin: 10px auto;
   display: block;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(back8.avif);
 }
 
 h1 {
