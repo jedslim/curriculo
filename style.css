@@ -60,7 +60,7 @@ h3 {
 }
 
 section {
-  padding: 20px;
+  padding: 25px;
   border-bottom: 1px solid #ddd;
   text-align: center;
 }
@@ -73,6 +73,7 @@ ul.list-contact {
 
 ul.list-contact li {
   margin-bottom: 10px;
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -80,11 +81,6 @@ ul.list-contact li {
 .list-item {
   font-size: 60px;
   margin-right: 10px;
-}
-
-.list-item:hover {
-  font-size: 100px;
-  transition: 1s;
 }
 
 a {
